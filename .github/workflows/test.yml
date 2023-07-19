@@ -3,13 +3,13 @@ name: taox11
 on:
   push:
     branches:
-      - main
+      - master
       - v*
     tags:
       - AXCIOMA-v*
   pull_request:
     branches:
-      - main
+      - master
       - v*
   workflow_dispatch:
 
